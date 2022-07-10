@@ -9,12 +9,15 @@ body {
 h1,
 h2 {
     color: darkred;
+    text-align: center;
 }
 
 h3, 
 p,
 li {
     color: green;
+    text-align: center;
+    list-style-type: none;
 }
 
 img {
@@ -58,6 +61,12 @@ nav a:hover {
     background-color: white;
 }
 
+#logo {
+    width: 50%;
+    height: auto;
+    background-color: blueviolet;
+}
+
 #banner img {
     width: 60%;
     height: auto;
@@ -83,4 +92,9 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
 }
